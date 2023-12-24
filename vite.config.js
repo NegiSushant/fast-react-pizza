@@ -4,8 +4,9 @@ import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  //changes below
-  base: "/fast-react-pizza/",
-  //changes above
+  // //changes below
+  // base: "/fast-react-pizza/",
+  // //changes above
   plugins: [react(), eslint()],
+  base: "/fast-react-pizza/",
 });
